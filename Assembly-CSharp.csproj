@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{A3ECD924-1E37-FACF-FBEB-8C967A0754D4}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_0;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/UnityFree/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/UnityFree/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\ActionScripts\Action_Attack.cs" />
+     <Compile Include="Assets\Scripts\ActionScripts\Action_Base.cs" />
+     <Compile Include="Assets\Scripts\ActionScripts\Action_CharacterInfo.cs" />
+     <Compile Include="Assets\Scripts\ActionScripts\Action_EndTurn.cs" />
+     <Compile Include="Assets\Scripts\ActionScripts\Action_Move.cs" />
+     <Compile Include="Assets\Scripts\ActionScripts\Action_SpellCast.cs" />
+     <Compile Include="Assets\Scripts\CharacterScripts\ActionSystem.cs" />
+     <Compile Include="Assets\Scripts\CharacterScripts\Actor.cs" />
+     <Compile Include="Assets\Scripts\CharacterScripts\BattleSystem.cs" />
+     <Compile Include="Assets\Scripts\CharacterScripts\Character.cs" />
+     <Compile Include="Assets\Scripts\CharacterScripts\GraphicManager.cs" />
+     <Compile Include="Assets\Scripts\CharacterScripts\GuardManager.cs" />
+     <Compile Include="Assets\Scripts\CharacterScripts\HealthSystem.cs" />
+     <Compile Include="Assets\Scripts\CharacterScripts\MoveSystem.cs" />
+     <Compile Include="Assets\Scripts\CharacterScripts\SkillManager.cs" />
+     <Compile Include="Assets\Scripts\CharacterScripts\Spec.cs" />
+     <Compile Include="Assets\Scripts\CharacterScripts\SpecManager.cs" />
+     <Compile Include="Assets\Scripts\CharacterScripts\SpellManager.cs" />
+     <Compile Include="Assets\Scripts\CharacterScripts\StatsSheet.cs" />
+     <Compile Include="Assets\Scripts\CharacterScripts\Team.cs" />
+     <Compile Include="Assets\Scripts\GameSystemScripts\FloatingText.cs" />
+     <Compile Include="Assets\Scripts\GameSystemScripts\FloatingTextManager.cs" />
+     <Compile Include="Assets\Scripts\GameSystemScripts\GameSystem.cs" />
+     <Compile Include="Assets\Scripts\GameSystemScripts\GameUI.cs" />
+     <Compile Include="Assets\Scripts\GameSystemScripts\MouseController.cs" />
+     <Compile Include="Assets\Scripts\GameSystemScripts\SpawnSystem.cs" />
+     <Compile Include="Assets\Scripts\ObjectiveScripts\AObjectif.cs" />
+     <Compile Include="Assets\Scripts\ObjectiveScripts\Objectif_KillAll.cs" />
+     <Compile Include="Assets\Scripts\ObjectiveScripts\Objectif_KillTarget.cs" />
+     <Compile Include="Assets\Scripts\SkillScripts\Skill.cs" />
+     <Compile Include="Assets\Scripts\SkillScripts\Skill_Damage.cs" />
+     <Compile Include="Assets\Scripts\SkillScripts\Skill_Health.cs" />
+     <Compile Include="Assets\Scripts\SpellScripts\Casts\ConjurationCast.cs" />
+     <Compile Include="Assets\Scripts\SpellScripts\Casts\RuneCast.cs" />
+     <Compile Include="Assets\Scripts\SpellScripts\Casts\SignCast.cs" />
+     <Compile Include="Assets\Scripts\SpellScripts\Casts\SpellCast.cs" />
+     <Compile Include="Assets\Scripts\SpellScripts\Conjuration.cs" />
+     <Compile Include="Assets\Scripts\SpellScripts\Conjuration_Effects\C_Damage.cs" />
+     <Compile Include="Assets\Scripts\SpellScripts\Conjuration_Effects\C_Heal.cs" />
+     <Compile Include="Assets\Scripts\SpellScripts\Conjuration_Effects\ConjurationEffect_Base.cs" />
+     <Compile Include="Assets\Scripts\SpellScripts\Guard.cs" />
+     <Compile Include="Assets\Scripts\SpellScripts\Rune.cs" />
+     <Compile Include="Assets\Scripts\SpellScripts\Rune_Effects\R_Block.cs" />
+     <Compile Include="Assets\Scripts\SpellScripts\Rune_Effects\R_Damage.cs" />
+     <Compile Include="Assets\Scripts\SpellScripts\Rune_Effects\R_Damage_Boost.cs" />
+     <Compile Include="Assets\Scripts\SpellScripts\Rune_Effects\RuneEffect_Base.cs" />
+     <Compile Include="Assets\Scripts\SpellScripts\Sign.cs" />
+     <Compile Include="Assets\Scripts\SpellScripts\Sign_Effects\S_Damage.cs" />
+     <Compile Include="Assets\Scripts\SpellScripts\Sign_Effects\S_FireEnchantment.cs" />
+     <Compile Include="Assets\Scripts\SpellScripts\Spell.cs" />
+     <Compile Include="Assets\Scripts\SpellScripts\SpellEffect_Base.cs" />
+     <Compile Include="Assets\Scripts\TileScript\Grid.cs" />
+     <Compile Include="Assets\Scripts\TileScript\SpawnTile.cs" />
+     <Compile Include="Assets\Scripts\TileScript\Tile.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_Base.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_Battle_Action.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_Battle_Analyser.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_Battle_CharacterBaseInfo.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_Battle_CharacterHover.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_Battle_DamageReport.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_Battle_Notification.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_Battle_RuneHover.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_Battle_Spawn.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_Battle_SpawnInfo.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_Battle_Spell.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_Battle_Start.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_Battle_Summary.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_Button.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_Character_BaseInfo.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_Character_Skill.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_Character_SkillChange.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_Character_Spec.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_Character_SpecChange.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_Character_Stats.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_Container.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_EndGame_Victory.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_Manager.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_Menu.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_TeamSelection.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_Text.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_Victory.cs" />
+     <Compile Include="Assets\Scripts\Utilities\Utils.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

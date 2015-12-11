@@ -1,0 +1,11 @@
+I:\Work\Unity\Unity4 Project\DeadCityDeadMan\DeadCityDeadMan\Temp\bin\Debug\UnityVS.DeadCityDeadMan.CSharp.dll
+I:\Work\Unity\Unity4 Project\DeadCityDeadMan\DeadCityDeadMan\Temp\bin\Debug\UnityVS.DeadCityDeadMan.CSharp.pdb
+I:\Work\Unity\Unity4 Project\DeadCityDeadMan\DeadCityDeadMan\Temp\bin\Debug\UnityEditor.dll
+I:\Work\Unity\Unity4 Project\DeadCityDeadMan\DeadCityDeadMan\Temp\bin\Debug\UnityEngine.dll
+I:\Work\Unity\Unity4 Project\DeadCityDeadMan\DeadCityDeadMan\Temp\bin\Debug\Mono.Cecil.dll
+I:\Work\Unity\Unity4 Project\DeadCityDeadMan\DeadCityDeadMan\Temp\bin\Debug\nunit.framework.dll
+I:\Work\Unity\Unity4 Project\DeadCityDeadMan\DeadCityDeadMan\Temp\bin\Debug\Unity.DataContract.dll
+I:\Work\Unity\Unity4 Project\DeadCityDeadMan\DeadCityDeadMan\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+I:\Work\Unity\Unity4 Project\DeadCityDeadMan\DeadCityDeadMan\obj\Debug\UnityVS.DeadCityDeadMan.CSharp.csprojResolveAssemblyReference.cache
+I:\Work\Unity\Unity4 Project\DeadCityDeadMan\DeadCityDeadMan\obj\Debug\UnityVS.DeadCityDeadMan.CSharp.dll
+I:\Work\Unity\Unity4 Project\DeadCityDeadMan\DeadCityDeadMan\obj\Debug\UnityVS.DeadCityDeadMan.CSharp.pdb

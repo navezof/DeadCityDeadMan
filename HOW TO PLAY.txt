@@ -1,0 +1,7 @@
+DeadCityDeadMan is a tactial RPG prototype. It was quite challenging to do, especially regarding the UI. (There wasn't yet an easy way to do UI ><)
+
+To play, go to Executable and double click on DCDM_m2.exe
+
+You have to click on the capsule in order to bring up the action menu. Also there is no way to quit except for alt + f4 :)
+
+Enjoy!

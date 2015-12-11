@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.DeadCityDeadMan.CSharp", "UnityVS.DeadCityDeadMan.CSharp.csproj", "{2B6E363E-DE9A-07BB-5C60-CB6BCDBFEBDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.DeadCityDeadMan.CSharp.Editor", "UnityVS.DeadCityDeadMan.CSharp.Editor.csproj", "{38AE49E3-577C-5B92-6B2B-172EE83FC085}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B6E363E-DE9A-07BB-5C60-CB6BCDBFEBDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B6E363E-DE9A-07BB-5C60-CB6BCDBFEBDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B6E363E-DE9A-07BB-5C60-CB6BCDBFEBDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B6E363E-DE9A-07BB-5C60-CB6BCDBFEBDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38AE49E3-577C-5B92-6B2B-172EE83FC085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38AE49E3-577C-5B92-6B2B-172EE83FC085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38AE49E3-577C-5B92-6B2B-172EE83FC085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38AE49E3-577C-5B92-6B2B-172EE83FC085}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
